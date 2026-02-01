@@ -1,0 +1,66 @@
+h1
+{
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 60px;
+    color: goldenrod;
+    text-align: center;
+    text-decoration: underline;
+}
+
+span
+{
+    background-color: rgb(47, 47, 128);
+}
+
+p
+{
+    font-family: 'Playfaire Display', SemiBold;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+}
+
+body
+{
+    background-image: url(../images_fournies/4.jpg);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: repeat;
+}
+
+footer
+{
+    font-family: 'Playfaire Display', Regular;
+    font-size: 15px;
+    color: goldenrod;
+    text-align: left;
+}
+
+div
+{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: xx-large;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+a
+{
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: 25px; 
+}
+
+img
+{
+    border: goldenrod solid 1px;
+    width: 125px;
+    display: block;
+    margin: auto;
+}
+

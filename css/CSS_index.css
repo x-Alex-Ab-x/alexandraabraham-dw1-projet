@@ -1,0 +1,124 @@
+h1
+{
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 60px;
+    color: goldenrod;
+    text-align: center;
+    text-decoration: underline;
+}
+
+span
+{
+    background-color: rgb(47, 47, 128);
+}
+
+p
+{
+    font-family: 'Playfaire Display', SemiBold;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+}
+
+h3
+{
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 30px;
+    color: goldenrod;
+    text-align: right;
+    text-decoration: underline;
+}
+
+body
+{
+    background-image: url(../images_fournies/4.jpg);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: repeat;
+}
+
+footer
+{
+    font-family: 'Playfaire Display', Regular;
+    font-size: 15px;
+    color: goldenrod;
+    text-align: left;
+}
+
+p.spéciale
+{
+    font-family: 'Playfaire Display', SemiBold;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: right;
+}
+
+h2
+{
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 30px;
+    color: goldenrod;
+    text-align: left;
+    text-decoration: underline;
+}
+
+ul
+{
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 30px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+h6
+{
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+img
+{
+    border: goldenrod solid 1px;
+    width: 125px;
+    display: block;
+    margin: auto;
+}
+
+img.spéciale
+{
+    border: goldenrod solid 1px;
+    width: 400px;
+    position: absolute;
+    right: 10em;
+}
+
+img.spéciale2
+{
+    border: goldenrod solid 1px;
+    width: 500px;
+    position: absolute;
+    left: 1em;
+    transform: scaleX(-1);
+}
+
+div
+{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: xx-large;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+a
+{
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: 25px;
+}

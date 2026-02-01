@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/Alexa/OneDrive/Desktop/School_Analyste_Informatique/Cours_2(HTML_front-end_CSS_VisualStudioCode)/Projet/AlexandraAbraham_DW1_Projet/css/CSS_formulaire.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <title>Astrologie d'Orion</title>
+</head>
+<body>
+    
+    <header>
+        <div>
+        <span class="surligne">
+            <a href="/Users/Alexa/OneDrive/Desktop/School_Analyste_Informatique/Cours_2(HTML_front-end_CSS_VisualStudioCode)/Projet/AlexandraAbraham_DW1_Projet/Horoscope.html">Horoscope</a>
+            <a href="/Users/Alexa/OneDrive/Desktop/School_Analyste_Informatique/Cours_2(HTML_front-end_CSS_VisualStudioCode)/Projet/AlexandraAbraham_DW1_Projet/Index.html">Accueil</a>
+            <a href="/Users/Alexa/OneDrive/Desktop/School_Analyste_Informatique/Cours_2(HTML_front-end_CSS_VisualStudioCode)/Projet/AlexandraAbraham_DW1_Projet/Partenaires.html">Partenaire</a>
+        </span>
+        </div><br/>
+        <figure>
+            <figcaption><span class="surligne">Logo de l'entreprise</span></figcaption>
+            <img src="/Users/Alexa/OneDrive/Desktop/School_Analyste_Informatique/Cours_2(HTML_front-end_CSS_VisualStudioCode)/Projet/AlexandraAbraham_DW1_Projet/Mes_Images/Page Web/Logo 4.png" alt="Logo du site" />
+        </figure>
+    </header>
+    
+    <h1><span class="surligne">Contact</span></h1>
+
+    <p>
+        <span class="surligne">
+            Utilisez ce formulaire pour transmettre les informations nécessaires, auprès de <strong>Mme Zémur</strong>,<br/>
+            afin qu'elle puisse vous présenter les offres adaptées à vos besoins et à votre signe astrologique.
+        </span>
+    </p><br/>
+
+    <div class="spéciale">
+    <form name="MonFormulaire" action="UneAction" method="post">
+        
+        <fieldset name="InfoPerso" id="InfoPerso">
+            <legend><span class="surligne">Information personnelles</span></legend>
+
+            <p class="spéciale"><label for="courriel">Adresse courriel:</label>
+                <input type="email" id="courriel" name="courriel" required></p>
+
+            <p class="spéciale"><label for="Prenom">Votre prénom : </label>
+            <input type="text" name="Prenom" id="Prenom"/></p>
+
+            <p class="spéciale"><label for="Nom">Votre nom de famille : </label>
+            <input type="text" name="Nom" id="Nom"/></p>
+    
+            <p class="spéciale"><label for="naissance">Date de naissance:</label>
+            <input type="date" id="naissance" name="naissance" required></p>
+
+            <p class="spéciale"><label for="zodiaque">Signe du zodiaque:</label>
+                <select id="zodiac" name="zodiaque">
+                    <option value="belier">Bélier</option>
+                    <option value="taureau">Taureau</option>
+                    <option value="gemeaux">Gémeaux</option>
+                    <option value="cancer">Cancer</option>
+                    <option value="lion">Lion</option>
+                    <option value="vierge">Vierge</option>
+                    <option value="balance">Balance</option>
+                    <option value="scorpion">Scorpion</option>
+                    <option value="sagittaire">Sagittaire</option>
+                    <option value="capricorne">Capricorne</option>
+                    <option value="verseau">Verseau</option>
+                    <option value="poissons">Poissons</option>
+                </select></p>
+    
+            <p class="spéciale"><label for="Numéro">Numéro porte-bonheur (entre 0 et 9):</label>
+            <input type="number" id="Numéro" name="Numéro" min="0" max="9" required></p>
+
+            </fieldset>
+    
+            <p><input type="submit" name="btnSoumettre" value="Soumettre"/>
+            <input type="reset" name="btnEffacer" value="Effacer"/></p>
+    
+    </form>
+    </div>
+
+    <br/><br/><br/>
+
+    <p><span class="surligne">Gardez à l'esprit que vous avez toujours la possibilité de
+    communiquer avec <strong>Mme Zémur</strong> via son <a href="mailto:propriétaire@info_orion.ca">e-mail</a></span></p>
+    
+    <br/><br/><br/><br/><br/><br/><br/>
+
+    <footer>
+    <span class="surligne">&copy; Orion Astrologie. Tous droits réservés. Dernière mise à jour : 19 juin 2024</span>
+    </footer>
+</body>
+</html>

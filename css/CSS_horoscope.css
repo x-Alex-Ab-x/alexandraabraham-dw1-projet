@@ -1,0 +1,119 @@
+h1
+{
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 60px;
+    color: goldenrod;
+    text-align: center;
+    text-decoration: underline;
+}
+
+span
+{
+    background-color: rgb(47, 47, 128);
+}
+
+body
+{
+    background-image: url(../images_fournies/4.jpg);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: repeat;
+}
+
+footer
+{
+    font-family: 'Playfaire Display', Regular;
+    font-size: 15px;
+    color: goldenrod;
+    text-align: left;
+}
+
+img
+{
+    border: goldenrod solid 1px;
+    width: 125px;
+    display: block;
+    margin: auto;
+}
+
+div
+{
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: xx-large;
+}
+
+figcaption
+{
+    text-align: center;
+}
+
+table
+{
+    width: 95%;
+    margin: 0 auto;
+    border: 3px solid goldenrod;
+}
+
+td
+{
+    border: 3px solid goldenrod;
+    background-color: rgb(47, 47, 128);
+    text-align: center;
+    color: goldenrod;
+}
+
+th
+{
+    color: goldenrod;
+    background-color: rgb(47, 47, 128);
+    border: 3px solid goldenrod;
+    text-align: center;
+}
+
+h3
+{
+    text-align: left;
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: 25px;
+}
+
+ul
+{
+    text-align: left;
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: 25px;
+}
+
+a
+{
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: 25px;
+}
+
+td:first-child+td, td:first-child+td+td, td:first-child+td+td+td
+{
+    font-size: 25px;
+}
+
+th:first-child, th:first-child+th, th:first-child+th+th, th:first-child+th+th+th
+{
+    font-size: 25px;
+}
+
+.image
+{
+    border: goldenrod solid 1px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.container
+{
+    display: flex;
+}
