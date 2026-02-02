@@ -93,16 +93,16 @@ img {
 
 img.speciale {
     border: goldenrod solid 1px;
-    width: 400px;
+    width: 300px;
     position: absolute;
     right: 10em;
 }
 
 img.speciale2 {
     border: goldenrod solid 1px;
-    width: 500px;
+    width: 400px;
     position: absolute;
-    left: 1em;
+    left: 15em;
     transform: scaleX(-1);
 }
 
