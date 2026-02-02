@@ -1,8 +1,27 @@
+body {
+    background-image: url(../images_fournies/4.jpg);
+    background-position: center;
+    background-size: 200%;
+    background-repeat: repeat;
+    font-family: 'Playfair Display', serif;
+    color: goldenrod;
+}
+
 h1 {
-    font-family: 'Playfaire Display', bold italic;
+    
+    font-style: italic;
+    font-weight: 700;
     font-size: 60px;
     color: goldenrod;
     text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Playfaire Display', bold italic;
+    font-size: 30px;
+    color: goldenrod;
+    text-align: left;
     text-decoration: underline;
 }
 
@@ -25,15 +44,6 @@ h3 {
     text-decoration: underline;
 }
 
-body {
-    background-image: url(../images_fournies/4.jpg);
-    background-position: center;
-    background-size: 200%;
-    background-repeat: repeat;
-    font-family: 'Playfair Display', serif;
-    color: goldenrod;
-}
-
 footer {
     font-family: 'Playfaire Display', Regular;
     font-size: 15px;
@@ -46,14 +56,6 @@ p.speciale {
     font-size: 25px;
     color: goldenrod;
     text-align: right;
-}
-
-h2 {
-    font-family: 'Playfaire Display', bold italic;
-    font-size: 30px;
-    color: goldenrod;
-    text-align: left;
-    text-decoration: underline;
 }
 
 ul {
