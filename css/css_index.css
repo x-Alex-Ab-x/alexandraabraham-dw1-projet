@@ -8,7 +8,6 @@ body {
 }
 
 h1 {
-    
     font-style: italic;
     font-weight: 700;
     font-size: 60px;
@@ -18,58 +17,71 @@ h1 {
 }
 
 h2 {
-    font-family: 'Playfaire Display', bold italic;
+    font-style: italic;
+    font-weight: 700;
     font-size: 30px;
     color: goldenrod;
     text-align: left;
     text-decoration: underline;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+    color: goldenrod;
+    text-align: right;
+    text-decoration: underline;
+}
+
+h6 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Playfaire Display', SemiBold;
+    font-weight: 600;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: center;
+}
+
+p.speciale {
+    font-family: 'Playfaire Display', SemiBold;
+    font-weight: 600;
+    font-size: 25px;
+    color: goldenrod;
+    text-align: right;
 }
 
 span.surligne {
     background-color: rgb(47, 47, 128);
 }
 
-p {
-    font-family: 'Playfaire Display', SemiBold;
-    font-size: 25px;
-    color: goldenrod;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Playfaire Display', bold italic;
-    font-size: 30px;
-    color: goldenrod;
-    text-align: right;
-    text-decoration: underline;
-}
-
-footer {
-    font-family: 'Playfaire Display', Regular;
-    font-size: 15px;
-    color: goldenrod;
-    text-align: left;
-}
-
-p.speciale {
-    font-family: 'Playfaire Display', SemiBold;
-    font-size: 25px;
-    color: goldenrod;
-    text-align: right;
-}
-
 ul {
-    font-family: 'Playfaire Display', bold italic;
+    font-style: italic;
+    font-weight: 700;
     font-size: 30px;
     color: goldenrod;
     text-decoration: underline;
+    list-style-type: circle;
+    padding-left: 1.5em;
 }
 
-h6 {
-    font-family: 'Playfaire Display', bold italic;
-    font-size: 20px;
+a {
     color: goldenrod;
-    text-decoration: underline;
+    font-family: 'Playfaire Display', Regular;
+    font-size: 25px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underligne;
 }
 
 img {
@@ -94,23 +106,28 @@ img.speciale2 {
     transform: scaleX(-1);
 }
 
-div {
-    text-align: center;
-    color: goldenrod;
-    font-family: 'Playfaire Display', Regular;
-    font-size: xx-large;
+figure {
+    text-align; center;
 }
 
 figcaption {
     text-align: center;
 }
 
-a {
-    color: goldenrod;
+footer {
     font-family: 'Playfaire Display', Regular;
-    font-size: 25px;
+    font-size: 15px;
+    color: goldenrod;
+    text-align: left;
 }
 
-a:hover {
-    text-decoration: underligne;
+section {
+    margin-bottom: 2rem;
+}
+
+div {
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Playfaire Display', Regular;
+    font-size: xx-large;
 }
