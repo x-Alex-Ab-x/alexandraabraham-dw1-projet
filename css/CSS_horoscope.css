@@ -1,3 +1,13 @@
+body {
+background-image: url("../images_fournies/4.jpg");
+background-position: center;
+background-size: 200%;
+background-repeat: repeat;
+color: goldenrod;
+font-family: 'Playfair Display', serif;
+}
+
+
 h1 {
 font-family: 'Playfair Display', serif;
 font-weight: 700;
@@ -8,68 +18,16 @@ text-align: center;
 text-decoration: underline;
 }
 
+h3 {
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 25px;
+color: goldenrod;
+text-align: left;
+}
+
 span.surligne {
 background-color: rgb(47, 47, 128);
-}
-
-body {
-background-image: url("../images_fournies/4.jpg");
-background-position: center;
-background-size: 200%;
-background-repeat: repeat;
-color: goldenrod;
-font-family: 'Playfair Display', serif;
-}
-
-footer {
-font-family: 'Playfair Display', serif;
-font-weight: 400;
-font-size: 15px;
-color: goldenrod;
-text-align: left;
-}
-
-img {
-border: goldenrod solid 1px;
-width: 125px;
-display: block;
-margin: auto;
-}
-
-figcaption {
-text-align: center;
-}
-
-table {
-width: 95%;
-margin: 0 auto;
-border: 3px solid goldenrod;
-border-collapse: collapse;
-}
-
-td, th {
-border: 3px solid goldenrod;
-background-color: rgb(47, 47, 128);
-text-align: center;
-color: goldenrod;
-padding: 10px;
-vertical-align: middle;
-}
-
-h3 {
-text-align: left;
-color: goldenrod;
-font-family: 'Playfair Display', serif;
-font-weight: 400;
-font-size: 25px;
-}
-
-ul {
-text-align: left;
-color: goldenrod;
-font-family: 'Playfair Display', serif;
-font-weight: 400;
-font-size: 25px;
 }
 
 a {
@@ -82,6 +40,31 @@ text-decoration: none;
 
 a:hover {
 text-decoration: underline;
+}
+
+ul {
+text-align: left;
+color: goldenrod;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 25px;
+}
+
+table {
+width: 95%;
+margin: 0 auto;
+border: 3px solid goldenrod;
+border-collapse: collapse;
+}
+
+td,
+th {
+border: 3px solid goldenrod;
+background-color: rgb(47, 47, 128);
+text-align: center;
+color: goldenrod;
+padding: 10px;
+vertical-align: middle;
 }
 
 td:first-child + td,
@@ -97,6 +80,13 @@ th:first-child + th + th + th {
 font-size: 25px;
 }
 
+img {
+border: goldenrod solid 1px;
+width: 125px;
+display: block;
+margin: auto;
+}
+
 .image {
 border: goldenrod solid 1px;
 width: 100px;
@@ -109,5 +99,18 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 12px;
-flex-wrap: wrap; /* évite que ça déborde sur petits écrans */
+flex-wrap: wrap;
 }
+
+figcaption {
+text-align: center;
+}
+
+footer {
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 15px;
+color: goldenrod;
+text-align: left;
+}
+
