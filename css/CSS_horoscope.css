@@ -1,5 +1,4 @@
-h1
-{
+h1 {
     font-family: 'Playfaire Display', bold italic;
     font-size: 60px;
     color: goldenrod;
@@ -7,113 +6,97 @@ h1
     text-decoration: underline;
 }
 
-span
-{
+span {
     background-color: rgb(47, 47, 128);
 }
 
-body
-{
+body {
     background-image: url(../images_fournies/4.jpg);
     background-position: center;
     background-size: 200%;
     background-repeat: repeat;
 }
 
-footer
-{
+footer {
     font-family: 'Playfaire Display', Regular;
     font-size: 15px;
     color: goldenrod;
     text-align: left;
 }
 
-img
-{
+img{
     border: goldenrod solid 1px;
     width: 125px;
     display: block;
     margin: auto;
 }
 
-div
-{
+div{
     text-align: center;
     color: goldenrod;
     font-family: 'Playfaire Display', Regular;
     font-size: xx-large;
 }
 
-figcaption
-{
+figcaption {
     text-align: center;
 }
 
-table
-{
+table {
     width: 95%;
     margin: 0 auto;
     border: 3px solid goldenrod;
 }
 
-td
-{
+td {
     border: 3px solid goldenrod;
     background-color: rgb(47, 47, 128);
     text-align: center;
     color: goldenrod;
 }
 
-th
-{
+th{
     color: goldenrod;
     background-color: rgb(47, 47, 128);
     border: 3px solid goldenrod;
     text-align: center;
 }
 
-h3
-{
+h3 {
     text-align: left;
     color: goldenrod;
     font-family: 'Playfaire Display', Regular;
     font-size: 25px;
 }
 
-ul
-{
+ul {
     text-align: left;
     color: goldenrod;
     font-family: 'Playfaire Display', Regular;
     font-size: 25px;
 }
 
-a
-{
+a {
     color: goldenrod;
     font-family: 'Playfaire Display', Regular;
     font-size: 25px;
 }
 
-td:first-child+td, td:first-child+td+td, td:first-child+td+td+td
-{
+td:first-child+td, td:first-child+td+td, td:first-child+td+td+td {
     font-size: 25px;
 }
 
-th:first-child, th:first-child+th, th:first-child+th+th, th:first-child+th+th+th
-{
+th:first-child, th:first-child+th, th:first-child+th+th, th:first-child+th+th+th {
     font-size: 25px;
 }
 
-.image
-{
+.image {
     border: goldenrod solid 1px;
     width: 100px;
     display: block;
     margin: auto;
 }
 
-.container
-{
+.container {
     display: flex;
 }
