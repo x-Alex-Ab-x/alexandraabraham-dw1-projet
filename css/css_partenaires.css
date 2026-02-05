@@ -1,66 +1,56 @@
-h1
-{
-    font-family: 'Playfaire Display', bold italic;
-    font-size: 60px;
-    color: goldenrod;
-    text-align: center;
-    text-decoration: underline;
-}
-
-span
-{
-    background-color: rgb(47, 47, 128);
-}
-
-p
-{
-    font-family: 'Playfaire Display', SemiBold;
-    font-size: 25px;
-    color: goldenrod;
-    text-align: center;
-}
-
-body
-{
+body {
     background-image: url(../images_fournies/4.jpg);
-    background-position: center;
-    background-size: 200%;
-    background-repeat: repeat;
+background-position: center;
+background-size: 200%;
+background-repeat: repeat;
 }
 
-footer
-{
-    font-family: 'Playfaire Display', Regular;
-    font-size: 15px;
-    color: goldenrod;
-    text-align: left;
+h1 {
+font-family: 'Playfair Display', bold italic;
+font-size: 60px;
+color: goldenrod;
+text-align: center;
+text-decoration: underline;
 }
 
-div
-{
-    text-align: center;
-    color: goldenrod;
-    font-family: 'Playfaire Display', Regular;
-    font-size: xx-large;
+p {
+font-family: 'Playfair Display', SemiBold;
+font-size: 25px;
+color: goldenrod;
+text-align: center;
 }
 
-figcaption
-{
-    text-align: center;
+a {
+color: goldenrod;
+font-family: 'Playfair Display', Regular;
+font-size: 25px;
 }
 
-a
-{
-    color: goldenrod;
-    font-family: 'Playfaire Display', Regular;
-    font-size: 25px; 
+span {
+background-color: rgb(47, 47, 128);
 }
 
-img
-{
-    border: goldenrod solid 1px;
-    width: 125px;
-    display: block;
-    margin: auto;
+div {
+text-align: center;
+color: goldenrod;
+font-family: 'Playfair Display', Regular;
+font-size: xx-large;
 }
 
+figcaption {
+text-align: center;
+}
+
+img {
+border: goldenrod solid 1px;
+width: 125px;
+display: block;
+margin: auto;
+}
+
+footer {
+font-family: 'Playfair Display', Regular;
+font-size: 15px;
+color: goldenrod;
+text-align: left;
+}
